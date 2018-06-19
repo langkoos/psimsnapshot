@@ -4,6 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
+    <repositories>
+        <!-- Repository for MATSim releases (MATSim is not on Maven central) -->
+        <repository>
+            <id>matsim</id>
+            <url>https://dl.bintray.com/matsim/matsim</url>
+        </repository>
+    </repositories>
+
     <groupId>org.matsim</groupId>
     <artifactId>my-sample-project</artifactId>
     <version>1.0-SNAPSHOT</version>
